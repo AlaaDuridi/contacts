@@ -21,3 +21,12 @@ Contextual errors:
 User has more options than slamming refresh, He can continue to 
 interact with the parts of the page that aren't having trouble 
 ```
+
+```
+Index routes:
+When the route has children, and you are at the parent route's path, the <Outlet/>
+has nothing to render because no children match.
+The solution is to add an index route to the parent route.
+```
+
+```
