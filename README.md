@@ -15,3 +15,9 @@ useNavigation returns the current navigation state: it can be one of "idle" | "s
 ```
 avoid calling the loaders for unchanging routes (like the list) during a navigation.
 ```
+
+```
+Contextual errors:
+User has more options than slamming refresh, He can continue to 
+interact with the parts of the page that aren't having trouble 
+```
