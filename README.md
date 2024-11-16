@@ -30,3 +30,5 @@ The solution is to add an index route to the parent route.
 ```
 
 ```
+<button type="button" > is the HTML way of preventing a button from submitting its form.
+```
