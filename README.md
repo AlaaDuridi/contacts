@@ -32,3 +32,8 @@ The solution is to add an index route to the parent route.
 ```
 <button type="button" > is the HTML way of preventing a button from submitting its form.
 ```
+
+```
+ The currentTarget is the DOM node the event is attached to, and the currentTarget.form is the input's parent form node.
+ The submit function will serialize and submit any form you pass to it.
+```
