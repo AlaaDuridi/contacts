@@ -37,3 +37,14 @@ The solution is to add an index route to the parent route.
  The currentTarget is the DOM node the event is attached to, and the currentTarget.form is the input's parent form node.
  The submit function will serialize and submit any form you pass to it.
 ```
+
+```
+ useFetcher hook. It allows us to communicate with loaders and actions
+  without causing a navigation.
+```
+
+```
+<fetcher.Form method="post"> works almost exactly like the <Form> we've been using: it calls the action and then all data is revalidated automatically--even your errors will be caught the same way.
+
+There is one key difference though, it's not a navigation--the URL doesn't change, the history stack is unaffected.
+```
